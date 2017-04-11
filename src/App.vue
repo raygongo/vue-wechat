@@ -19,11 +19,11 @@
       </tabbar-item>
 
     </tabbar>
-    <transition :name="this.$store.getters.direction === 'forward'?'pop-in':'pop-out'">
+    <!--<transition :name="this.$store.getters.direction === 'forward'?'pop-in':'pop-out'">-->
         <keep-alive>
           <router-view class="router-view"></router-view>
         </keep-alive>
-    </transition>
+    <!--</transition>-->
   </div>
 </template>
 
